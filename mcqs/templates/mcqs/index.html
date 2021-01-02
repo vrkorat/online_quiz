@@ -1,0 +1,5 @@
+<ul>
+    {%for mcq in all_mcq%}
+    <li><a href="/mcqs/{{ mcq.id }}" >{{mcq.question}}</a></li>
+    {% endfor %}
+</ul>
